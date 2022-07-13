@@ -1,0 +1,293 @@
+.login_header_QHD {
+    background: #0069bb;
+    height: 30px;
+    width: 630px;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.login_header_title_QHD {
+    color: white;
+    padding-left: 8px;
+    font-weight: 400;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.login_body_QHD {
+    background: #F6F6F6;
+    height: 600px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 3px #00000029;
+}
+
+.login_body_content_QHD {
+    padding : 76px 56px;
+    align-items: center;
+}
+
+.login_body_logo_QHD {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 180px;
+    height: 70px;
+    margin-bottom: 60px;
+    fill: #0069bb;
+}
+
+.check_id_QHD {
+    display: block;
+    height: 32px;
+    border-bottom: 1px solid #E3E3E3;
+}
+
+.check_id_checkbox_QHD{
+    height: 15px;
+    width: 15px;
+    border-radius: 2px;
+    margin: 0px 8px 0px 0px;
+    /* background-color: #FFF;
+    border: 1px solid #E3E3E3; */
+}
+
+.check_id_checkbox_QHD:checked:before{
+    background-color: #0069bb !important;
+}
+
+.check_id_label_QHD{
+    display: flex;
+    font-weight: 400;
+    font-size:13px;
+    color: #0069bb;
+    vertical-align: middle;
+}
+
+.check_label_QHD{
+    vertical-align: top;
+}
+
+.input_QHD{
+    height: 32px;
+    border-radius: 4px;
+    width: 100%;
+    border: 1px solid #E3E3E3;
+    text-align:center;
+    padding: 0;
+}
+
+.input_QHD:focus{
+    outline: none !important;
+}
+
+::-webkit-input-placeholder {
+    color: #E3E3E3;
+    font-size: 13px;
+}
+
+.input_title_QHD{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+
+.input_title_name_QHD{
+    font-size: 15px;
+}
+
+.input_title_error_QHD{
+    font-size: 11px;
+    color: #0069bb;
+}
+
+.input_password_wrap_QHD{
+    position: relative;
+    display: flex;
+}
+
+.passowrd_icon_QHD{
+    position: absolute;
+    top: 7px;
+    right: 13px;
+    width: 30px;
+    height: 20px;
+    fill: #E3E3E3;
+}
+
+.passowrd_icon_color_QHD{
+    position: absolute;
+    top: 7px;
+    right: 13px;
+    width: 30px;
+    height: 20px;
+    fill: #0069bb;
+}
+
+.sumbit_btn_QHD{
+    margin-top: 30px;
+    margin-bottom: 25px;
+    background-color: #0069bb;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    width: 100%;
+    height: 32px;
+    border: none;
+    border-radius: 4px;
+}
+
+.check_remember_QHD {
+    display: block;
+    height: 32px;
+    align-items: center;
+}
+
+.login_header_FHD {
+    background: #0069bb;
+    height: 30px;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.login_header_title_FHD {
+    color: white;
+    padding-left: 8px;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.login_body_FHD {
+    background: #F6F6F6;
+    height: 600px;
+    width: 630px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 3px #00000029;
+}
+
+.login_body_content_FHD {
+    padding : 105px 56px;
+    align-items: center;
+}
+
+.login_body_logo_FHD {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 144px;
+    height: 59px;
+    margin-bottom: 65px;
+    fill: #0069bb;
+}
+
+.check_id_FHD {
+    height: 32px;
+    border-bottom: 1px solid #E3E3E3;
+}
+
+
+.check_id_checkbox_FHD{
+    height: 15px;
+    width: 15px;
+    border-radius: 2px;
+    margin: 0px 7px 0px 0px;
+    /* background-color: #FFF;
+    border: 1px solid #E3E3E3; */
+}
+
+.check_id_checkbox_FHD:checked:before{
+    background-color: #0069bb !important;
+}
+
+.check_id_label_FHD{
+    display: flex;
+    font-weight: 400;
+    font-size:13px;
+    color: #0069bb;
+    vertical-align: middle;
+}
+
+.check_label_FHD{
+    vertical-align: middle;
+}
+
+.input_FHD{
+    height: 32px;
+    border-radius: 4px;
+    width: 100%;
+    border: 1px solid #E3E3E3;
+    text-align:center;
+    padding: 0;
+}
+
+.input_FHD:focus{
+    outline: none !important;
+}
+
+.input_title_FHD{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.input_title_name_FHD{
+    font-size: 15px;
+}
+
+.input_title_error_FHD{
+    font-size: 11px;
+    color: #0069bb;
+}
+
+.input_password_wrap_FHD{
+    position: relative;
+    display: flex;
+}
+
+.passowrd_icon_FHD{
+    position: absolute;
+    top: 7px;
+    right: 4px;
+    width: 23px;
+    height: 20px;
+    fill: #E3E3E3;
+}
+
+.passowrd_icon_color_FHD{
+    position: absolute;
+    top: 7px;
+    right: 4px;
+    width: 23px;
+    height: 20px;
+    fill: #0069bb;
+}
+
+.sumbit_btn_FHD{
+    margin-top: 47px;
+    margin-bottom: 20px;
+    background-color: #0069bb;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    width: 100%;
+    height: 32px;
+    border: none;
+    border-radius: 4px;
+}
+
+.check_remember_FHD {
+    display: block;
+    height: 26px;
+    align-items: center;
+}

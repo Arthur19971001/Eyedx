@@ -1,0 +1,149 @@
+table{
+    font-size: 16px;
+    width: 100%;
+    text-align: center;
+    border-collapse:collapse;
+    table-layout:auto;
+    box-sizing: border-box;
+}
+
+thead{
+    font-weight: bold;
+    border: none;
+    background-color: #F6F6F6;
+}
+
+thead tr{
+    height: 70px;
+}
+
+tbody tr{
+    height: 60px;
+}
+
+tbody{
+    font-weight: 400;
+    color : #707070;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+td{
+    height: 60px;
+    border: none;
+}
+
+.table_body_list_tr{
+    height: 74px;
+    border-bottom: 1px solid #ebebeb;
+    pointer-events: auto;
+}
+
+.table_wrapper{
+    height: calc(100vh - 600px);
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative; 
+}
+
+.tbody_background_div{
+    position: absolute;
+    width: 100%;
+    height: 670px;
+    margin: 70px auto 0px auto;
+    background-color: white;
+}
+
+.table_div{
+    table-layout: fixed;
+    height: calc(100vh - 600px);
+ overflow: auto;
+ display:block;
+    /* position: relative; */
+}
+
+.loading_wrapper{
+    margin-top: 70px;
+    height: calc(100vh - 670px);
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;    
+}
+
+.table_body_list_tr:hover{
+    background-color: #fafafa;
+}
+
+.custom_label_div{
+    font: normal normal normal 16px/33px Lato; 
+    padding: 3px 40px;
+}
+
+/* .table_body_list_tr:hover .custom_label_div{
+    background-color: #E3E3E3;
+} */
+
+.table_body_program_td{
+    display: flex;
+    justify-content: center;
+}
+
+.table_program_td_div_QHD{
+    height: 75px;
+    display: flex;
+    justify-content: center;
+}
+
+.table_program_td_div_FHD{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.table_status_td_div{
+    height: 36px;
+    display: flex;
+    justify-content: center;
+}
+
+.no_data_div{
+    position: absolute;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    bottom: 50%;
+    width: 450px;
+    height: 250px;
+}
+
+.no_data_img .st0{
+    fill: #CFCFCF;
+}
+
+.table_loader{
+    width: 100%;
+    height: 100%;
+}
+
+.loading_blue_div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+    position: absolute;
+}
+
+.loading_content_blue_div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size:15px; 
+    font-weight:700;
+    color: #0069bb;
+}

@@ -1,0 +1,61 @@
+.pager_div{
+    height: 32px;
+    display: flex;
+}
+.pager_number_div{
+    display: flex;
+    justify-content: center;
+}
+
+.pager_jump .st0:hover{
+    fill: #0069bb;
+}
+
+.pager_next .st0:hover{
+    fill: #0069bb;
+}
+
+.pager_button_div{
+    height: 32px;
+    width: 32px;
+    cursor: pointer;
+}
+
+.pager_label{
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 32px;
+}
+
+.pager_number_button_div {
+    width: 32px;
+    height: 32px;
+    border: none;
+    color: #707070;
+    border-radius: 2px;
+    background-color: transparent;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.pager_number_button_div:hover{
+    background-color: #E3E3E3;
+}
+
+.active{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border: 1px solid #0069bb;
+    color: #0069bb;
+}
+
+svg {
+    pointer-events: none;
+}
+
+path{
+    pointer-events: auto;
+}
+

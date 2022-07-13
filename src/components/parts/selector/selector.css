@@ -1,0 +1,36 @@
+.selector_wrapper{
+    height: 36px;
+    display: flex;
+    vertical-align: middle;
+}
+
+.selector_body{
+    padding-right: 32px;
+}
+
+.selector_btn{
+    width: 280px;
+    height: 36px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #cfcfcf;
+    border-radius: 20px;
+    color: black;
+    text-align: center;
+    font-size: 16px;
+}
+
+.selector_btn:active{
+    color: #0069bb;
+    border-color: #0069bb;
+}
+
+.selector_btn:hover{
+    color: #2089DB;
+    border-color: #2089DB;
+}
+
+.selector_title{
+    padding-right: 7px;
+    line-height: 36px;
+    color:#707070;
+}

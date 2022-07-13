@@ -1,0 +1,102 @@
+.check_div{
+    display: table;
+    height: 32px;
+    padding-left: 16px;
+}
+
+.check_label{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.check_title{
+    color: #707070;
+}
+
+.check_label > .check_box {
+    display: none;
+}
+
+.check_label > .check_box + *::before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 1rem;
+    height: 1rem;
+    margin-right: 5px;
+    border-radius: 2px;
+    border: 1px solid #E3E3E3;
+    flex-shrink: 0;
+}
+
+.check_label > .check_box:checked + * {
+    color: #0069bb;
+}
+
+.check_label > .check_box:checked + *::before {
+    content: "v";
+    color: white;
+    text-align: center;
+    background: #0069bb;
+    border-color: #0069bb;
+    vertical-align: middle;
+    display: inline-block;
+    line-height: 1rem;
+}
+
+.check_label > .check_box:hover + * {
+    color: #2089DB;
+}
+
+.check_label > .check_box:hover + *::before {
+    border: 1px solid #2089DB;
+}
+
+
+.check_label_dark{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.check_title_dark{
+    padding-right: 13px;
+}
+
+.check_label_dark > .check_box_dark {
+    display: none;
+}
+
+.check_label_dark > .check_box_dark + *::before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 1rem;
+    height: 1rem;
+    margin-right: 5px;
+    border-radius: 2px;
+    border: 1px solid #E3E3E3;
+    flex-shrink: 0;
+}
+
+.check_label_dark > .check_box_dark:checked + * {
+    color: white;
+}
+
+.check_label_dark > .check_box_dark:checked + *::before {
+    content: "v";
+    color: black;
+    text-align: center;
+    background: white;
+    border-color: white;
+    line-height: 1rem;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.check_label_dark > .check_box_dark:hover + * {
+    color: #9F9F9F;
+}
+
+.check_label_dark > .check_box_dark:hover + *::before {
+    border: 1px solid #9F9F9F;
+}

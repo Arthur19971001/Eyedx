@@ -1,0 +1,131 @@
+.normal_button{
+    transition-duration: 0.4s;
+    background-color: #0069BB;
+    height: 36px;
+    color: white;
+    border-radius: 18px;
+    border-width: 0px;
+    text-align: center;
+    padding: 8px 0;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.normal_button:hover{
+    background-color: #2089DB;
+}
+
+.normal_button:disabled{
+    background-color: #BABABA;
+}
+
+.normal_dark_button{
+    transition-duration: 0.4s;
+    background-color:black;
+    height: 32px;
+    line-height: 10px;
+    color: white;
+    border: 2px solid #404040;
+    text-align: center;
+    padding: 8px 0;
+    font: normal normal normal 15px Lato;
+    border-radius: 4px;
+    margin-bottom: 16px;
+}
+
+.normal_dark_button:hover{
+    border: 2px solid white;
+}
+
+.normal_dark_button:disabled{
+    background-color: #BABABA;
+}
+
+.custom_dark_button{
+    transition-duration: 0.4s;
+    background-color:#404040;
+    height: 32px;
+    color: white;
+    border: 2px solid #404040;
+    text-align: center;
+    padding: 8px 0;
+    font: normal normal normal 15px Lato;
+    border-radius: 4px;
+}
+
+.custom_dark_button:hover{
+    background-color:#9F9F9F;
+}
+
+.custom_dark_button:disabled{
+    background-color: #BABABA;
+}
+
+.normal_dark_act_button{
+    transition-duration: 0.4s;
+    background-color:#404040;
+    height: 32px;
+    line-height: 10px;
+    color: white;
+    border: 2px solid #404040;
+    text-align: center;
+    padding: 8px 0;
+    font: normal normal normal 15px Lato;
+    border-radius: 4px;
+    margin-bottom: 16px;
+}
+
+.normal_dark_act_button:hover{
+    border: 2px solid white;
+}
+
+.normal_dark_act_button:disabled{
+    background-color: #BABABA;
+}
+
+.toggle_button{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    width: 132px;
+    height: 36px;
+    background: #000000 0% 0% no-repeat padding-box;
+    border: 2px solid #404040;
+    border-radius: 19px;
+    padding: 2px;
+    box-sizing: border-box;
+    margin-bottom: 14px;
+}
+
+.toggle_button:hover{
+    border: 2px solid #9F9F9F;
+}
+
+.toggle_fill_color{
+    margin: auto;
+    color: white;
+    text-align: center;
+    width: 66px;
+    height: 28px;
+    line-height: 28px;
+    background: #404040 0% 0% no-repeat padding-box;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.toggle_no_fill_color{
+    margin: auto;
+    color: white;
+    width: 66px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.toggle_span{
+    display: inline-block;
+    vertical-align: bottom;
+    line-height: 28px;  
+    font-size:15px; 
+    font-family:Lato;
+}
